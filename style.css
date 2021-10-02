@@ -1,0 +1,143 @@
+/* CSS Document */
+
+.card {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(175 175 175 / 75%);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(175 175 175 / 75%);
+    box-shadow: 0px 0px 5px 0px rgb(175 175 175 / 75%);
+    margin-bottom: 100px;
+}
+
+.card-img-top {
+    height: 230px;
+}
+
+.breadcrumb {
+    background-color: #ebebeb;
+    padding: initial;
+
+}
+
+.img-home {
+    width: 90px;
+    height: 90px;
+    padding: 14px;
+    border-radius: 50%;
+}
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 80px;
+  height: 80px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 400px;
+  height: 400px;
+}
+.InfoText {
+  text-indent: 40px;
+}
+.a-size-base {
+    font-size: 14px!important;
+    line-height: 20px!important;
+	font-weight: 700!important;
+}
+a-size {
+    font-size: 10px!important;
+    line-height: 10px!important;
+	font-weight: 700!important;
+}
+.a-size-large {
+    text-rendering: optimizeLegibility;
+    font-size: 22px!important;
+    line-height: 32px!important;
+	word-break: break-word;
+	font-weight: bold
+}
+
+.btn-color {
+  padding: 8px 10px;
+  background: #ff0000;
+  border: 1px solid #d7d7d7;
+  border-radius: 20%;
+}
+
+.btns-color {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 5px;
+}
+
+.radio-color {
+  margin-right: 3px;
+}
+
+.myresult-position {
+  position: absolute;
+  top: 165px;
+  right: 110px;
+  z-index: -1;
+  opacity: 0;
+}
+
+.myresult-position-show {
+  opacity: initial;
+  z-index: 1;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+ .btn {
+  background-color: #333333;
+ }
+ .btn:hover {
+  background-color: #828b87;
+ }
+ .txt_area {
+   width: 600px;
+
+ }
+ .txt_area:focus {
+  outline: none !important;
+  border:1px solid  rgb(0, 140, 255);
+  box-shadow: 0 0 10px #719ECE;
+ }
+.button_condidate {
+  background-color: #02b894!important;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+.a-size-title {
+    font-size: 20px!important;
+    line-height: 20px!important;
+	font-weight: 700!important;
+	text-align: center;
+}
+.div1 {
+  border: 1px solid gray;
+  padding: 8px;
+}

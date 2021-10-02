@@ -1,0 +1,23 @@
+h1 {
+    font-size: 50px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+ .btn {
+  background-color: #333333;
+ }
+ .btn:hover {
+  background-color: #828b87;
+ }
+ .txt_area {
+   width: 640px;
+
+ }
+ .txt_area:focus {
+  outline: none !important;
+  border:1px solid  rgb(0, 140, 255);
+  box-shadow: 0 0 10px #719ECE;
+ }
+
